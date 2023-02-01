@@ -135,7 +135,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -1806491336331594695, guid: cb064fdf1ccc3df44a07f6485db31e77, type: 2}
+  - {fileID: 1220559371846241425, guid: 52b09698da99d33458177ea956e1f88d, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -616,11 +618,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: TRAinAR
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DreVinci Creations
+  metroCertificateIssuer: DreVinci Creations
+  metroCertificateNotAfter: 80a40a2c5f55da01
   metroApplicationDescription: TRAinAR
   wsaImages: {}
   metroTileShortName: HoloLens2-TRAinAR
